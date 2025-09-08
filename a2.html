@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1> Globle and Local Parameter (Variable)</h1>
+<button type="button" onclick="f1()">Button</button>
+<p id="d1"></p>
+<p id="d2"></p>
+<script>
+    var n1=10;
+    function f1(){
+        var n2=20;
+        document.getElementById("d2").innerHTML="n1="+n1 + "<br> n2="+n2;
+    }
+</script>
+</body>
+</html>
